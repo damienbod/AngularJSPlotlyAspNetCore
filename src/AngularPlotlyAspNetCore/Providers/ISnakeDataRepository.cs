@@ -12,5 +12,7 @@ namespace AngularPlotlyAspNetCore
         List<OeeDataAverageAgg> GetOeeForMachines(List<string> machineNames);
 
         OeeDataProUnit GetLineDataForMachine(string machineName, string datapoint, string proYearMonthDay);
+
+        void AddAllData();
     }
 }

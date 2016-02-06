@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using AngularPlotlyAspNetCore.Models;
 using ElasticsearchCRUD;
@@ -10,6 +11,7 @@ using ElasticsearchCRUD.Model.SearchModel;
 using ElasticsearchCRUD.Model.SearchModel.Aggregations;
 using ElasticsearchCRUD.Model.SearchModel.Aggregations.RangeParam;
 using ElasticsearchCRUD.Model.SearchModel.Queries;
+using Newtonsoft.Json;
 
 namespace AngularPlotlyAspNetCore.Providers
 {    public class SnakeDataRepository : ISnakeDataRepository
@@ -33,7 +35,7 @@ namespace AngularPlotlyAspNetCore.Providers
 
             using (var context = new ElasticsearchContext(_connectionString, _elasticsearchMappingResolver))
             {
-                var items = context.Search<OeeData>(
+                var items = context.Search<SnakeBites>(
                     search,
                     new SearchUrlParameters
                     {
@@ -75,7 +77,7 @@ namespace AngularPlotlyAspNetCore.Providers
 
             using (var context = new ElasticsearchContext(_connectionString, _elasticsearchMappingResolver))
             {
-                var items = context.Search<OeeData>(
+                var items = context.Search<SnakeBites>(
                     search,
                     new SearchUrlParameters
                     {
@@ -113,7 +115,7 @@ namespace AngularPlotlyAspNetCore.Providers
 
             using (var context = new ElasticsearchContext(_connectionString, _elasticsearchMappingResolver))
             {
-                var items = context.Search<OeeData>(
+                var items = context.Search<SnakeBites>(
                     search,
                     new SearchUrlParameters
                     {
@@ -194,7 +196,7 @@ namespace AngularPlotlyAspNetCore.Providers
 
             using (var context = new ElasticsearchContext(_connectionString, _elasticsearchMappingResolver))
             {
-                var items = context.Search<OeeData>(search, new SearchUrlParameters { SeachType = SeachType.count });
+                var items = context.Search<SnakeBites>(search, new SearchUrlParameters { SeachType = SeachType.count });
                 var aggResult = items.PayloadResult.Aggregations.GetComplexValue<RangesBucketAggregationsResult>("testRangesBucketAggregation");
 
                 result.AvailabilityData = new BarTrace { Y = new List<double>()};
@@ -224,6 +226,23 @@ namespace AngularPlotlyAspNetCore.Providers
             var res = bucket.GetSingleMetricSubAggregationValue<double?>(key);
 
             return (Math.Round(res.GetValueOrDefault(0.0), 2) * 100);
+        }
+
+        public void AddAllData()
+        {
+            List<SnakeBites> data = JsonConvert.DeserializeObject<List<SnakeBites>>(File.ReadAllText(@"C:\\git\\damienbod\\AngularPlotlyAspNetCore\\src\\AngularPlotlyAspNetCore\\snakeBitesData.json"));
+            long counter = 1;
+            var elasticsearchContext = new ElasticsearchContext("http://localhost:9200/", new ElasticsearchMappingResolver());
+            foreach (var snakeCountry in data)
+            {
+                // create some documents
+                counter++;
+                elasticsearchContext.AddUpdateDocument(snakeCountry, counter);
+            }
+
+            elasticsearchContext.SaveChanges();
+
+
         }
     }
 

@@ -56,5 +56,12 @@ namespace AngularPlotlyAspNetCore.Controllers
         {
             return _snakeDataRepository.GetOeeForMachines(new List<string>() { machineName1, machineName2 });
         }
+
+        [HttpGet("AddAllData")]
+        public IActionResult AddAllData()
+        {
+            _snakeDataRepository.AddAllData();
+            return Ok();
+        }
     }
 }
