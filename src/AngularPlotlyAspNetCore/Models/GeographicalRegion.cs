@@ -7,5 +7,7 @@ namespace AngularPlotlyAspNetCore.Models
 
         public double NumberOfCasesHigh { get; set; }
         public double NumberOfDeathsHigh { get; set; }
+
+        public bool DangerHigh { get; set; }
     }
 }

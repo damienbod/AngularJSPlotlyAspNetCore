@@ -34,8 +34,8 @@ namespace AngularPlotlyAspNetCore.Providers
                     {
                         Aggs = new List<IAggs>
                         {
-                            new ValueCountMetricAggregation("countCases", "numberofcaseshigh"),
-                            new ValueCountMetricAggregation("countDeaths", "numberofdeathshigh")
+                            new SumMetricAggregation("countCases", "numberofcaseshigh"),
+                            new SumMetricAggregation("countDeaths", "numberofdeathshigh")
                         }
                     }
                 }
@@ -56,7 +56,18 @@ namespace AngularPlotlyAspNetCore.Providers
 
                     foreach (var bucket in aggResult.Buckets)
                     {
-                        geographicalRegions.Add(new GeographicalRegion { Countries = bucket.DocCount, Name = bucket.Key.ToString() });
+                        var cases = Math.Round(bucket.GetSingleMetricSubAggregationValue<double>("countCases"), 2);
+                        var deaths = Math.Round(bucket.GetSingleMetricSubAggregationValue<double>("countDeaths"), 2);
+                        geographicalRegions.Add(
+                            new GeographicalRegion {
+                                Countries = bucket.DocCount,
+                                Name = bucket.Key.ToString(),
+                                NumberOfCasesHigh = cases,
+                                NumberOfDeathsHigh = deaths,
+                                DangerHigh =  (deaths > 1000)
+                            });
+
+
                     }
                     oeeDataAverageAgg.DataPoints = items.PayloadResult.Hits.Total;
                 }
