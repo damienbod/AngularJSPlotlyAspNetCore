@@ -7,15 +7,15 @@
 		[
 			"$scope",
 			"$log",
-            "machines",
+            "geographicalRegions",
 			OverviewController
 		]
 	);
 
-	function OverviewController($scope, $log, machines) {
+	function OverviewController($scope, $log, geographicalRegions) {
 	    $log.info("OverviewController called");
 	    $scope.message = "Overview";
-	    $scope.machines = machines;
+	    $scope.geographicalRegions = geographicalRegions;
 
 
 	}

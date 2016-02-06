@@ -1,13 +1,13 @@
 ﻿<div class="panel-group">
 
-       <div class="mcbutton col-md-3" style="margin-left: -15px; margin-bottom: 10px;" ui-sref="details({machineName: machine.MachineName})" ng-repeat="machine in machines">
+       <div class="mcbutton col-md-3" style="margin-left: -15px; margin-bottom: 10px;" ng-repeat="geographicalRegion in geographicalRegions">
            <div class="panel panel-default">
                <div class="panel-heading">
                    <i class="fa fa-heartbeat" style="color: red; margin-right: 20px;"></i>
-                   {{machine.MachineName}}, items: {{machine.DatapointsCount}} 
+                   {{geographicalRegion.Name}}, Countries: {{machine.Countries}} 
                </div>
                <div class="panel-body" style="height: 200px;">
-                   <img src="images/mc1.jpg" style="width: 100%;margin-top: 20px;" />
+                   <!--<img src="images/mc1.jpg" style="width: 100%;margin-top: 20px;" />-->
                </div>
            </div>
     </div>

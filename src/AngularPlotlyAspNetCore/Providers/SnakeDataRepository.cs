@@ -55,7 +55,7 @@ namespace AngularPlotlyAspNetCore.Providers
                 }
                 catch (Exception)
                 {
-                    // no machines yet
+                   
                 }
             }
                    

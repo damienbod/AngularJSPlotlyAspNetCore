@@ -16,10 +16,10 @@
 		            controller: "OverviewController",
 		            resolve: {
 
-		                OeeDataService: "OeeDataService",
+		                OeeDataService: "SnakeDataService",
 
-		                machines: ["OeeDataService",  function (OeeDataService) {
-		                    return OeeDataService.getMachines();
+		                machines: ["SnakeDataService",  function (SnakeDataService) {
+		                    return SnakeDataService.getGeographicalRegions();
 		                }]
 		            }
 
