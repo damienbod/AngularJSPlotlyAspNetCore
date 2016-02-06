@@ -1,0 +1,2045 @@
+[
+  {
+    "Geographical Region":"Asia, Central",
+    "Country":"Armenia",
+    "Current population (2007":3002271,
+    "Number of cases (Low)":"      74",
+    "Number of cases (High)":74,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Asia, Central",
+    "Country":"Azerbaijan",
+    "Current population (2007":8467167,
+    "Number of cases (Low)":"      17",
+    "Number of cases (High)":115,
+    "Number of deaths (Low)":0.9,
+    "Number of deaths (High)":4.4
+  },
+  {
+    "Geographical Region":"Asia, Central",
+    "Country":"Georgia",
+    "Current population (2007":4395420,
+    "Number of cases (Low)":"       9",
+    "Number of cases (High)":63,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Asia, Central",
+    "Country":"Kazakhstan",
+    "Current population (2007":15421861,
+    "Number of cases (Low)":"      32",
+    "Number of cases (High)":186,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Asia, Central",
+    "Country":"Kyrgyzstan",
+    "Current population (2007":5316543,
+    "Number of cases (Low)":"      11",
+    "Number of cases (High)":91,
+    "Number of deaths (Low)":2.8,
+    "Number of deaths (High)":2.8
+  },
+  {
+    "Geographical Region":"Asia, Central",
+    "Country":"Mongolia",
+    "Current population (2007":2628840,
+    "Number of cases (Low)":"       5",
+    "Number of cases (High)":32,
+    "Number of deaths (Low)":0.3,
+    "Number of deaths (High)":1.4
+  },
+  {
+    "Geographical Region":"Asia, Central",
+    "Country":"Tajikistan",
+    "Current population (2007":6735996,
+    "Number of cases (Low)":"      14",
+    "Number of cases (High)":125,
+    "Number of deaths (Low)":0.7,
+    "Number of deaths (High)":3.5
+  },
+  {
+    "Geographical Region":"Asia, Central",
+    "Country":"Turkmenistan",
+    "Current population (2007":4965278,
+    "Number of cases (Low)":"      10",
+    "Number of cases (High)":73,
+    "Number of deaths (Low)":0.5,
+    "Number of deaths (High)":2.6
+  },
+  {
+    "Geographical Region":"Asia, Central",
+    "Country":"Uzbekistan",
+    "Current population (2007":27372260,
+    "Number of cases (Low)":"      56",
+    "Number of cases (High)":453,
+    "Number of deaths (Low)":3,
+    "Number of deaths (High)":14.2
+  },
+  {
+    "Geographical Region":"Asia, East",
+    "Country":"China",
+    "Current population (2007":1336317116,
+    "Number of cases (Low)":"    1136",
+    "Number of cases (High)":212118,
+    "Number of deaths (Low)":450,
+    "Number of deaths (High)":4081
+  },
+  {
+    "Geographical Region":"Asia, East",
+    "Country":"DPR Korea",
+    "Current population (2007":23790245,
+    "Number of cases (Low)":"      20",
+    "Number of cases (High)":2359,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Asia, East",
+    "Country":"Republic of Korea",
+    "Current population (2007":48223853,
+    "Number of cases (Low)":"     192",
+    "Number of cases (High)":621,
+    "Number of deaths (Low)":5,
+    "Number of deaths (High)":5
+  },
+  {
+    "Geographical Region":"Asia, East",
+    "Country":"Hong Kong",
+    "Current population (2007":7057000,
+    "Number of cases (Low)":"     427",
+    "Number of cases (High)":427,
+    "Number of deaths (Low)":5.3,
+    "Number of deaths (High)":176.4
+  },
+  {
+    "Geographical Region":"Asia, East",
+    "Country":"Japan",
+    "Current population (2007":127966709,
+    "Number of cases (Low)":"     509",
+    "Number of cases (High)":2529,
+    "Number of deaths (Low)":7.4,
+    "Number of deaths (High)":13.3
+  },
+  {
+    "Geographical Region":"Asia, East",
+    "Country":"Taiwan",
+    "Current population (2007":22858872,
+    "Number of cases (Low)":"    2999",
+    "Number of cases (High)":3769,
+    "Number of deaths (Low)":7.2,
+    "Number of deaths (High)":571.5
+  },
+  {
+    "Geographical Region":"Asia, South",
+    "Country":"Afghanistan",
+    "Current population (2007":27145275,
+    "Number of cases (Low)":"     687",
+    "Number of cases (High)":128738,
+    "Number of deaths (Low)":192.5,
+    "Number of deaths (High)":1368.7
+  },
+  {
+    "Geographical Region":"Asia, South",
+    "Country":"Bangladesh",
+    "Current population (2007":158664959,
+    "Number of cases (Low)":"    4014",
+    "Number of cases (High)":8280,
+    "Number of deaths (Low)":1680,
+    "Number of deaths (High)":8000
+  },
+  {
+    "Geographical Region":"Asia, South",
+    "Country":"Bhutan",
+    "Current population (2007":658479,
+    "Number of cases (Low)":"    2458",
+    "Number of cases (High)":2977,
+    "Number of deaths (Low)":4.7,
+    "Number of deaths (High)":33.2
+  },
+  {
+    "Geographical Region":"Asia, South",
+    "Country":"India",
+    "Current population (2007":1169015509,
+    "Number of cases (Low)":"   81399",
+    "Number of cases (High)":163051,
+    "Number of deaths (Low)":10835,
+    "Number of deaths (High)":15000
+  },
+  {
+    "Geographical Region":"Asia, South",
+    "Country":"Nepal",
+    "Current population (2007":28195994,
+    "Number of cases (Low)":"   19991",
+    "Number of cases (High)":142727,
+    "Number of deaths (Low)":200,
+    "Number of deaths (High)":1000
+  },
+  {
+    "Geographical Region":"Asia, South",
+    "Country":"Pakistan",
+    "Current population (2007":163902405,
+    "Number of cases (Low)":"   12784",
+    "Number of cases (High)":17578,
+    "Number of deaths (Low)":1200,
+    "Number of deaths (High)":8264.1
+  },
+  {
+    "Geographical Region":"Asia, South",
+    "Country":"Sri Lanka",
+    "Current population (2007":18963553,
+    "Number of cases (Low)":"   32902",
+    "Number of cases (High)":32902,
+    "Number of deaths (Low)":132.7,
+    "Number of deaths (High)":948.2
+  },
+  {
+    "Geographical Region":"Asia, Southeast",
+    "Country":"Brunei Darussalam",
+    "Current population (2007":390056,
+    "Number of cases (Low)":"       2",
+    "Number of cases (High)":6,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Asia, Southeast",
+    "Country":"Cambodia",
+    "Current population (2007":14443679,
+    "Number of cases (Low)":"     794",
+    "Number of cases (High)":21482,
+    "Number of deaths (Low)":80,
+    "Number of deaths (High)":722.2
+  },
+  {
+    "Geographical Region":"Asia, Southeast",
+    "Country":"Indonesia",
+    "Current population (2007":231626978,
+    "Number of cases (Low)":"   12739",
+    "Number of cases (High)":214883,
+    "Number of deaths (Low)":20,
+    "Number of deaths (High)":11581.3
+  },
+  {
+    "Geographical Region":"Asia, Southeast",
+    "Country":"Laos",
+    "Current population (2007":5859393,
+    "Number of cases (Low)":"     322",
+    "Number of cases (High)":8383,
+    "Number of deaths (Low)":0.5,
+    "Number of deaths (High)":293
+  },
+  {
+    "Geographical Region":"Asia, Southeast",
+    "Country":"Malaysia",
+    "Current population (2007":26571879,
+    "Number of cases (Low)":"   11812",
+    "Number of cases (High)":23637,
+    "Number of deaths (Low)":8,
+    "Number of deaths (High)":79.7
+  },
+  {
+    "Geographical Region":"Asia, Southeast",
+    "Country":"Maldives",
+    "Current population (2007":305556,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Asia, Southeast",
+    "Country":"Mauritius",
+    "Current population (2007":1261641,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Asia, Southeast",
+    "Country":"Mayotte",
+    "Current population (2007":0,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Asia, Southeast",
+    "Country":"Myanmar",
+    "Current population (2007":48798212,
+    "Number of cases (Low)":"    8832",
+    "Number of cases (High)":14633,
+    "Number of deaths (Low)":336.7,
+    "Number of deaths (High)":649
+  },
+  {
+    "Geographical Region":"Asia, Southeast",
+    "Country":"Philippines",
+    "Current population (2007":87960117,
+    "Number of cases (Low)":"    4838",
+    "Number of cases (High)":58989,
+    "Number of deaths (Low)":200,
+    "Number of deaths (High)":300
+  },
+  {
+    "Geographical Region":"Asia, Southeast",
+    "Country":"Seychelles",
+    "Current population (2007":86606,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Asia, Southeast",
+    "Country":"Singapore",
+    "Current population (2007":4436281,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Asia, Southeast",
+    "Country":"Thailand",
+    "Current population (2007":63883662,
+    "Number of cases (Low)":"    8465",
+    "Number of cases (High)":9101,
+    "Number of deaths (Low)":5,
+    "Number of deaths (High)":94
+  },
+  {
+    "Geographical Region":"Asia, Southeast",
+    "Country":"Timor Leste",
+    "Current population (2007":1154775,
+    "Number of cases (Low)":"      64",
+    "Number of cases (High)":1501,
+    "Number of deaths (Low)":0.1,
+    "Number of deaths (High)":57.7
+  },
+  {
+    "Geographical Region":"Asia, Southeast",
+    "Country":"Viet Nam",
+    "Current population (2007":87375196,
+    "Number of cases (Low)":"   29970",
+    "Number of cases (High)":117583,
+    "Number of deaths (Low)":6.8,
+    "Number of deaths (High)":4368.8
+  },
+  {
+    "Geographical Region":"Australasia",
+    "Country":"Australia",
+    "Current population (2007":20743179,
+    "Number of cases (Low)":"    1099",
+    "Number of cases (High)":1260,
+    "Number of deaths (Low)":1.8,
+    "Number of deaths (High)":4.1
+  },
+  {
+    "Geographical Region":"Australasia",
+    "Country":"New Zealand",
+    "Current population (2007":4178525,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Oceania",
+    "Country":"American Samoa",
+    "Current population (2007":65000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Oceania",
+    "Country":"Cook Islands",
+    "Current population (2007":13325,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Oceania",
+    "Country":"Fiji",
+    "Current population (2007":838698,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Oceania",
+    "Country":"French Polynesia",
+    "Current population (2007":252000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Oceania",
+    "Country":"Guam",
+    "Current population (2007":168000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Oceania",
+    "Country":"Kiribati",
+    "Current population (2007":95067,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Oceania",
+    "Country":"Marshall Islands",
+    "Current population (2007":59286,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Oceania",
+    "Country":"Micronesia (Fed States)",
+    "Current population (2007":111117,
+    "Number of cases (Low)":"       6",
+    "Number of cases (High)":60,
+    "Number of deaths (Low)":3.5,
+    "Number of deaths (High)":7.2
+  },
+  {
+    "Geographical Region":"Oceania",
+    "Country":"Nauru",
+    "Current population (2007":10152,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Oceania",
+    "Country":"New Caledonia",
+    "Current population (2007":237000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Oceania",
+    "Country":"Niue",
+    "Current population (2007":1565,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":1,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0.1
+  },
+  {
+    "Geographical Region":"Oceania",
+    "Country":"Northern Mariana Islands",
+    "Current population (2007":86000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Oceania",
+    "Country":"Palau",
+    "Current population (2007":20314,
+    "Number of cases (Low)":"       1",
+    "Number of cases (High)":6,
+    "Number of deaths (Low)":0.6,
+    "Number of deaths (High)":1
+  },
+  {
+    "Geographical Region":"Oceania",
+    "Country":"Papua NG",
+    "Current population (2007":6331010,
+    "Number of cases (Low)":"     313",
+    "Number of cases (High)":4051,
+    "Number of deaths (Low)":200,
+    "Number of deaths (High)":455.7
+  },
+  {
+    "Geographical Region":"Oceania",
+    "Country":"Pitcairn Islands",
+    "Current population (2007":0,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Oceania",
+    "Country":"Samoa",
+    "Current population (2007":187023,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Oceania",
+    "Country":"Solomon Islands",
+    "Current population (2007":495662,
+    "Number of cases (Low)":"      25",
+    "Number of cases (High)":328,
+    "Number of deaths (Low)":15.7,
+    "Number of deaths (High)":36.5
+  },
+  {
+    "Geographical Region":"Oceania",
+    "Country":"Tokelau",
+    "Current population (2007":2000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Oceania",
+    "Country":"Tonga",
+    "Current population (2007":100336,
+    "Number of cases (Low)":"       5",
+    "Number of cases (High)":54,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Oceania",
+    "Country":"Tuvalu",
+    "Current population (2007":10530,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Oceania",
+    "Country":"Vanuatu",
+    "Current population (2007":226180,
+    "Number of cases (Low)":"      11",
+    "Number of cases (High)":135,
+    "Number of deaths (Low)":7.1,
+    "Number of deaths (High)":15.6
+  },
+  {
+    "Geographical Region":"Oceania",
+    "Country":"Wallis & Futuna islands",
+    "Current population (2007":15000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Central",
+    "Country":"Albania",
+    "Current population (2007":3190012,
+    "Number of cases (Low)":"       1",
+    "Number of cases (High)":94,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Central",
+    "Country":"Bosnia & Herzegovina",
+    "Current population (2007":3934816,
+    "Number of cases (Low)":"      12",
+    "Number of cases (High)":67,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Central",
+    "Country":"Bulgaria",
+    "Current population (2007":7638831,
+    "Number of cases (Low)":"       2",
+    "Number of cases (High)":119,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Central",
+    "Country":"Croatia",
+    "Current population (2007":4555398,
+    "Number of cases (Low)":"      26",
+    "Number of cases (High)":108,
+    "Number of deaths (Low)":1,
+    "Number of deaths (High)":1
+  },
+  {
+    "Geographical Region":"Europe, Central",
+    "Country":"Czech Republic",
+    "Current population (2007":10186330,
+    "Number of cases (Low)":"      31",
+    "Number of cases (High)":158,
+    "Number of deaths (Low)":0.2,
+    "Number of deaths (High)":2.2
+  },
+  {
+    "Geographical Region":"Europe, Central",
+    "Country":"Hungary",
+    "Current population (2007":10029683,
+    "Number of cases (Low)":"       3",
+    "Number of cases (High)":174,
+    "Number of deaths (Low)":0.2,
+    "Number of deaths (High)":2.2
+  },
+  {
+    "Geographical Region":"Europe, Central",
+    "Country":"Montenegro",
+    "Current population (2007":597983,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0.1
+  },
+  {
+    "Geographical Region":"Europe, Central",
+    "Country":"Poland",
+    "Current population (2007":38081971,
+    "Number of cases (Low)":"      11",
+    "Number of cases (High)":765,
+    "Number of deaths (Low)":2.6,
+    "Number of deaths (High)":8.4
+  },
+  {
+    "Geographical Region":"Europe, Central",
+    "Country":"Romania",
+    "Current population (2007":21437887,
+    "Number of cases (Low)":"       6",
+    "Number of cases (High)":523,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Central",
+    "Country":"Serbia",
+    "Current population (2007":9858424,
+    "Number of cases (Low)":"       3",
+    "Number of cases (High)":262,
+    "Number of deaths (Low)":1,
+    "Number of deaths (High)":2.2
+  },
+  {
+    "Geographical Region":"Europe, Central",
+    "Country":"Slovakia",
+    "Current population (2007":5390035,
+    "Number of cases (Low)":"       9",
+    "Number of cases (High)":124,
+    "Number of deaths (Low)":0.6,
+    "Number of deaths (High)":1.2
+  },
+  {
+    "Geographical Region":"Europe, Central",
+    "Country":"Slovenia",
+    "Current population (2007":2001506,
+    "Number of cases (Low)":"       1",
+    "Number of cases (High)":51,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Central",
+    "Country":"Macedonia",
+    "Current population (2007":2038464,
+    "Number of cases (Low)":"       1",
+    "Number of cases (High)":44,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Eastern",
+    "Country":"Belarus",
+    "Current population (2007":9688795,
+    "Number of cases (Low)":"      37",
+    "Number of cases (High)":37,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Eastern",
+    "Country":"Estonia",
+    "Current population (2007":1335333,
+    "Number of cases (Low)":"       5",
+    "Number of cases (High)":5,
+    "Number of deaths (Low)":0.4,
+    "Number of deaths (High)":0.6
+  },
+  {
+    "Geographical Region":"Europe, Eastern",
+    "Country":"Latvia",
+    "Current population (2007":2277040,
+    "Number of cases (Low)":"       9",
+    "Number of cases (High)":9,
+    "Number of deaths (Low)":1,
+    "Number of deaths (High)":1
+  },
+  {
+    "Geographical Region":"Europe, Eastern",
+    "Country":"Lithuania",
+    "Current population (2007":3389937,
+    "Number of cases (Low)":"      13",
+    "Number of cases (High)":13,
+    "Number of deaths (Low)":0.2,
+    "Number of deaths (High)":1.5
+  },
+  {
+    "Geographical Region":"Europe, Eastern",
+    "Country":"Moldova",
+    "Current population (2007":3793604,
+    "Number of cases (Low)":"      14",
+    "Number of cases (High)":14,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Eastern",
+    "Country":"Russian Federation",
+    "Current population (2007":142498532,
+    "Number of cases (Low)":"     541",
+    "Number of cases (High)":541,
+    "Number of deaths (Low)":35,
+    "Number of deaths (High)":62.6
+  },
+  {
+    "Geographical Region":"Europe, Eastern",
+    "Country":"Ukraine",
+    "Current population (2007":46205382,
+    "Number of cases (Low)":"     176",
+    "Number of cases (High)":176,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Andorra",
+    "Current population (2007":74601,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Austria",
+    "Current population (2007":8360746,
+    "Number of cases (Low)":"       8",
+    "Number of cases (High)":151,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Belgium",
+    "Current population (2007":10457343,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Channel Islands",
+    "Current population (2007":149000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Cyprus",
+    "Current population (2007":854671,
+    "Number of cases (Low)":"       1",
+    "Number of cases (High)":14,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Denmark",
+    "Current population (2007":5442098,
+    "Number of cases (Low)":"       5",
+    "Number of cases (High)":45,
+    "Number of deaths (Low)":1,
+    "Number of deaths (High)":1
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Faro Islands",
+    "Current population (2007":47000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Finland",
+    "Current population (2007":5276892,
+    "Number of cases (Low)":"     201",
+    "Number of cases (High)":229,
+    "Number of deaths (Low)":1,
+    "Number of deaths (High)":1
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"France",
+    "Current population (2007":61647375,
+    "Number of cases (Low)":"    1541",
+    "Number of cases (High)":1880,
+    "Number of deaths (Low)":1,
+    "Number of deaths (High)":11.7
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Germany",
+    "Current population (2007":82599471,
+    "Number of cases (Low)":"      74",
+    "Number of cases (High)":561,
+    "Number of deaths (Low)":0.4,
+    "Number of deaths (High)":15.7
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Gibraltar",
+    "Current population (2007":27000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Greece",
+    "Current population (2007":11146918,
+    "Number of cases (Low)":"      10",
+    "Number of cases (High)":228,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Greenland",
+    "Current population (2007":57000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Holy See",
+    "Current population (2007":1000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Iceland",
+    "Current population (2007":301006,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Ireland",
+    "Current population (2007":4300902,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Isle of Man",
+    "Current population (2007":78000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Italy",
+    "Current population (2007":58876834,
+    "Number of cases (Low)":"     465",
+    "Number of cases (High)":1290,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Liechtenstein",
+    "Current population (2007":34000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Luxembourg",
+    "Current population (2007":466560,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Malta",
+    "Current population (2007":406582,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Monaco",
+    "Current population (2007":32711,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Netherlands",
+    "Current population (2007":16418824,
+    "Number of cases (Low)":"      15",
+    "Number of cases (High)":293,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Norway",
+    "Current population (2007":4698097,
+    "Number of cases (Low)":"      40",
+    "Number of cases (High)":79,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Portugal",
+    "Current population (2007":10623031,
+    "Number of cases (Low)":"      10",
+    "Number of cases (High)":240,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"San Marino",
+    "Current population (2007":6000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"San Pierre et Miquelon",
+    "Current population (2007":30926,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Spain",
+    "Current population (2007":44279180,
+    "Number of cases (Low)":"     112",
+    "Number of cases (High)":597,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Sweden",
+    "Current population (2007":9118955,
+    "Number of cases (Low)":"     237",
+    "Number of cases (High)":276,
+    "Number of deaths (Low)":0.2,
+    "Number of deaths (High)":1.7
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"Switzerland",
+    "Current population (2007":7483973,
+    "Number of cases (Low)":"      43",
+    "Number of cases (High)":93,
+    "Number of deaths (Low)":0.5,
+    "Number of deaths (High)":1.4
+  },
+  {
+    "Geographical Region":"Europe, Western",
+    "Country":"United Kingdom",
+    "Current population (2007":60768946,
+    "Number of cases (Low)":"     200",
+    "Number of cases (High)":522,
+    "Number of deaths (Low)":0.4,
+    "Number of deaths (High)":11.5
+  },
+  {
+    "Geographical Region":"North America",
+    "Country":"Canada",
+    "Current population (2007":32876047,
+    "Number of cases (Low)":"     260",
+    "Number of cases (High)":372,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"North America",
+    "Country":"USA",
+    "Current population (2007":305826246,
+    "Number of cases (Low)":"    2422",
+    "Number of cases (High)":3487,
+    "Number of deaths (Low)":4.8,
+    "Number of deaths (High)":7
+  },
+  {
+    "Geographical Region":"Latin America, Central",
+    "Country":"Colombia",
+    "Current population (2007":46155958,
+    "Number of cases (Low)":"    2340",
+    "Number of cases (High)":2696,
+    "Number of deaths (Low)":72.5,
+    "Number of deaths (High)":345.1
+  },
+  {
+    "Geographical Region":"Latin America, Central",
+    "Country":"Costa-Rica",
+    "Current population (2007":4467625,
+    "Number of cases (Low)":"     572",
+    "Number of cases (High)":695,
+    "Number of deaths (Low)":3.8,
+    "Number of deaths (High)":8.9
+  },
+  {
+    "Geographical Region":"Latin America, Central",
+    "Country":"El Salvador",
+    "Current population (2007":6857328,
+    "Number of cases (Low)":"      51",
+    "Number of cases (High)":2122,
+    "Number of deaths (Low)":3.1,
+    "Number of deaths (High)":51.3
+  },
+  {
+    "Geographical Region":"Latin America, Central",
+    "Country":"Guatemala",
+    "Current population (2007":13353911,
+    "Number of cases (Low)":"     513",
+    "Number of cases (High)":5715,
+    "Number of deaths (Low)":6,
+    "Number of deaths (High)":99.9
+  },
+  {
+    "Geographical Region":"Latin America, Central",
+    "Country":"Honduras",
+    "Current population (2007":7106001,
+    "Number of cases (Low)":"     510",
+    "Number of cases (High)":3294,
+    "Number of deaths (Low)":3.2,
+    "Number of deaths (High)":53.1
+  },
+  {
+    "Geographical Region":"Latin America, Central",
+    "Country":"Mexico",
+    "Current population (2007":106534880,
+    "Number of cases (Low)":"   28 056",
+    "Number of cases (High)":41009,
+    "Number of deaths (Low)":47.6,
+    "Number of deaths (High)":796.6
+  },
+  {
+    "Geographical Region":"Latin America, Central",
+    "Country":"Nicaragua",
+    "Current population (2007":5603190,
+    "Number of cases (Low)":"     507",
+    "Number of cases (High)":641,
+    "Number of deaths (Low)":2.5,
+    "Number of deaths (High)":41.9
+  },
+  {
+    "Geographical Region":"Latin America, Central",
+    "Country":"Panama",
+    "Current population (2007":3343374,
+    "Number of cases (Low)":"    2542",
+    "Number of cases (High)":2542,
+    "Number of deaths (Low)":17.4,
+    "Number of deaths (High)":25
+  },
+  {
+    "Geographical Region":"Latin America, Central",
+    "Country":"Venezuela",
+    "Current population (2007":27656832,
+    "Number of cases (Low)":"    6997",
+    "Number of cases (High)":8659,
+    "Number of deaths (Low)":37,
+    "Number of deaths (High)":38.8
+  },
+  {
+    "Geographical Region":"Latin America, Andean",
+    "Country":"Bolivia",
+    "Current population (2007":9524568,
+    "Number of cases (Low)":"     856",
+    "Number of cases (High)":5500,
+    "Number of deaths (Low)":100,
+    "Number of deaths (High)":100
+  },
+  {
+    "Geographical Region":"Latin America, Andean",
+    "Country":"Ecuador",
+    "Current population (2007":13341197,
+    "Number of cases (Low)":"    1199",
+    "Number of cases (High)":8189,
+    "Number of deaths (Low)":42.6,
+    "Number of deaths (High)":140.1
+  },
+  {
+    "Geographical Region":"Latin America, Andean",
+    "Country":"Peru",
+    "Current population (2007":27902760,
+    "Number of cases (Low)":"    4492",
+    "Number of cases (High)":13963,
+    "Number of deaths (Low)":100,
+    "Number of deaths (High)":293
+  },
+  {
+    "Geographical Region":"Latin America, Southern",
+    "Country":"Argentina",
+    "Current population (2007":39531115,
+    "Number of cases (Low)":"    1957",
+    "Number of cases (High)":1957,
+    "Number of deaths (Low)":3.8,
+    "Number of deaths (High)":3.8
+  },
+  {
+    "Geographical Region":"Latin America, Southern",
+    "Country":"Chile",
+    "Current population (2007":16634760,
+    "Number of cases (Low)":"       1",
+    "Number of cases (High)":102,
+    "Number of deaths (Low)":0.2,
+    "Number of deaths (High)":1.6
+  },
+  {
+    "Geographical Region":"Latin America, Southern",
+    "Country":"Falkland Islands",
+    "Current population (2007":3000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Latin America, Southern",
+    "Country":"Uruguay",
+    "Current population (2007":3339700,
+    "Number of cases (Low)":"     100",
+    "Number of cases (High)":105,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Latin America, Tropical",
+    "Country":"Brazil",
+    "Current population (2007":191790929,
+    "Number of cases (Low)":"   29536",
+    "Number of cases (High)":31274,
+    "Number of deaths (Low)":93.5,
+    "Number of deaths (High)":290
+  },
+  {
+    "Geographical Region":"Latin America, Tropical",
+    "Country":"Paraguay",
+    "Current population (2007":6127077,
+    "Number of cases (Low)":"     100",
+    "Number of cases (High)":621,
+    "Number of deaths (Low)":7,
+    "Number of deaths (High)":9.3
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"Anguilla",
+    "Current population (2007":12000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"Antigua & Barbuda",
+    "Current population (2007":85109,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"Aruba",
+    "Current population (2007":103000,
+    "Number of cases (Low)":"      50",
+    "Number of cases (High)":364,
+    "Number of deaths (Low)":0.1,
+    "Number of deaths (High)":55.1
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"Bahamas",
+    "Current population (2007":331278,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"Barbados",
+    "Current population (2007":293891,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"Belize",
+    "Current population (2007":287699,
+    "Number of cases (Low)":"      51",
+    "Number of cases (High)":884,
+    "Number of deaths (Low)":0.4,
+    "Number of deaths (High)":153.9
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"Bermuda",
+    "Current population (2007":83000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"British Virgin Islands",
+    "Current population (2007":22000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"Cayman Islands",
+    "Current population (2007":43000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"Cuba",
+    "Current population (2007":11267883,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"Dominica",
+    "Current population (2007":67390,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"Dominican Republic",
+    "Current population (2007":9759664,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"French Guiana",
+    "Current population (2007":187000,
+    "Number of cases (Low)":"      84",
+    "Number of cases (High)":334,
+    "Number of deaths (Low)":100,
+    "Number of deaths (High)":100
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"Grenada",
+    "Current population (2007":105672,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"Guadeloupe",
+    "Current population (2007":446000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"Guyana",
+    "Current population (2007":737906,
+    "Number of cases (Low)":"     528",
+    "Number of cases (High)":3017,
+    "Number of deaths (Low)":4.3,
+    "Number of deaths (High)":394.6
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"Haiti",
+    "Current population (2007":9597849,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"Jamaica",
+    "Current population (2007":2713779,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"Martinique",
+    "Current population (2007":397000,
+    "Number of cases (Low)":"      20",
+    "Number of cases (High)":21,
+    "Number of deaths (Low)":0.6,
+    "Number of deaths (High)":212.3
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"Montserrat",
+    "Current population (2007":4000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"Netherland Antilles",
+    "Current population (2007":224000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"St. Kitts & Nevus",
+    "Current population (2007":50417,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"St. Lucia",
+    "Current population (2007":164924,
+    "Number of cases (Low)":"       4",
+    "Number of cases (High)":640,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"St. Vincent & Grenadine",
+    "Current population (2007":120402,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"Suriname",
+    "Current population (2007":457964,
+    "Number of cases (Low)":"     327",
+    "Number of cases (High)":868,
+    "Number of deaths (Low)":2,
+    "Number of deaths (High)":244.9
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"Trinidad & Tobago",
+    "Current population (2007":1333272,
+    "Number of cases (Low)":"      33",
+    "Number of cases (High)":1911,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Caribbean",
+    "Country":"Turks & Caicos",
+    "Current population (2007":22000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"North Africa/ Middle East",
+    "Country":"Algeria",
+    "Current population (2007":33857915,
+    "Number of cases (Low)":"     100",
+    "Number of cases (High)":6470,
+    "Number of deaths (Low)":2.9,
+    "Number of deaths (High)":6.3
+  },
+  {
+    "Geographical Region":"North Africa/ Middle East",
+    "Country":"Bahrain",
+    "Current population (2007":752648,
+    "Number of cases (Low)":"       2",
+    "Number of cases (High)":38,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"North Africa/ Middle East",
+    "Country":"Egypt",
+    "Current population (2007":75497913,
+    "Number of cases (Low)":"     223",
+    "Number of cases (High)":21254,
+    "Number of deaths (Low)":14,
+    "Number of deaths (High)":14
+  },
+  {
+    "Geographical Region":"North Africa/ Middle East",
+    "Country":"Iran",
+    "Current population (2007":71208384,
+    "Number of cases (Low)":"     210",
+    "Number of cases (High)":11079,
+    "Number of deaths (Low)":6,
+    "Number of deaths (High)":13.2
+  },
+  {
+    "Geographical Region":"North Africa/ Middle East",
+    "Country":"Iraq",
+    "Current population (2007":28993374,
+    "Number of cases (Low)":"      86",
+    "Number of cases (High)":4366,
+    "Number of deaths (Low)":2.4,
+    "Number of deaths (High)":5.4
+  },
+  {
+    "Geographical Region":"North Africa/ Middle East",
+    "Country":"Israel",
+    "Current population (2007":6927677,
+    "Number of cases (Low)":"     100",
+    "Number of cases (High)":119,
+    "Number of deaths (Low)":0.2,
+    "Number of deaths (High)":1.3
+  },
+  {
+    "Geographical Region":"North Africa/ Middle East",
+    "Country":"Jordan",
+    "Current population (2007":5924245,
+    "Number of cases (Low)":"      17",
+    "Number of cases (High)":613,
+    "Number of deaths (Low)":0.5,
+    "Number of deaths (High)":1.1
+  },
+  {
+    "Geographical Region":"North Africa/ Middle East",
+    "Country":"Kuwait",
+    "Current population (2007":2851144,
+    "Number of cases (Low)":"       8",
+    "Number of cases (High)":56,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"North Africa/ Middle East",
+    "Country":"Lebanon",
+    "Current population (2007":4099115,
+    "Number of cases (Low)":"      12",
+    "Number of cases (High)":228,
+    "Number of deaths (Low)":0.3,
+    "Number of deaths (High)":0.8
+  },
+  {
+    "Geographical Region":"North Africa/ Middle East",
+    "Country":"Libya",
+    "Current population (2007":6160483,
+    "Number of cases (Low)":"      18",
+    "Number of cases (High)":388,
+    "Number of deaths (Low)":0.5,
+    "Number of deaths (High)":1.1
+  },
+  {
+    "Geographical Region":"North Africa/ Middle East",
+    "Country":"Morocco",
+    "Current population (2007":31224137,
+    "Number of cases (Low)":"      92",
+    "Number of cases (High)":6349,
+    "Number of deaths (Low)":2.6,
+    "Number of deaths (High)":5.8
+  },
+  {
+    "Geographical Region":"North Africa/ Middle East",
+    "Country":"Palestinian Territory",
+    "Current population (2007":3762000,
+    "Number of cases (Low)":"      11",
+    "Number of cases (High)":513,
+    "Number of deaths (Low)":0.3,
+    "Number of deaths (High)":0.7
+  },
+  {
+    "Geographical Region":"North Africa/ Middle East",
+    "Country":"Oman",
+    "Current population (2007":2595133,
+    "Number of cases (Low)":"     361",
+    "Number of cases (High)":583,
+    "Number of deaths (Low)":0.2,
+    "Number of deaths (High)":0.5
+  },
+  {
+    "Geographical Region":"North Africa/ Middle East",
+    "Country":"Qatar",
+    "Current population (2007":840635,
+    "Number of cases (Low)":"       2",
+    "Number of cases (High)":26,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"North Africa/ Middle East",
+    "Country":"Saudi Arabia",
+    "Current population (2007":24734533,
+    "Number of cases (Low)":"    1484",
+    "Number of cases (High)":1855,
+    "Number of deaths (Low)":2.1,
+    "Number of deaths (High)":4.6
+  },
+  {
+    "Geographical Region":"North Africa/ Middle East",
+    "Country":"Syria",
+    "Current population (2007":19928516,
+    "Number of cases (Low)":"      59",
+    "Number of cases (High)":4651,
+    "Number of deaths (Low)":1.7,
+    "Number of deaths (High)":3.7
+  },
+  {
+    "Geographical Region":"North Africa/ Middle East",
+    "Country":"Tunisia",
+    "Current population (2007":10327285,
+    "Number of cases (Low)":"      30",
+    "Number of cases (High)":1747,
+    "Number of deaths (Low)":0.9,
+    "Number of deaths (High)":1.9
+  },
+  {
+    "Geographical Region":"North Africa/ Middle East",
+    "Country":"Turkey",
+    "Current population (2007":74876695,
+    "Number of cases (Low)":"     221",
+    "Number of cases (High)":11777,
+    "Number of deaths (Low)":6.3,
+    "Number of deaths (High)":13.9
+  },
+  {
+    "Geographical Region":"North Africa/ Middle East",
+    "Country":"United Arab Emirates",
+    "Current population (2007":4380439,
+    "Number of cases (Low)":"      13",
+    "Number of cases (High)":239,
+    "Number of deaths (Low)":0.4,
+    "Number of deaths (High)":0.8
+  },
+  {
+    "Geographical Region":"North Africa/ Middle East",
+    "Country":"Western Sahara",
+    "Current population (2007":324000,
+    "Number of cases (Low)":"       1",
+    "Number of cases (High)":10,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0.1
+  },
+  {
+    "Geographical Region":"North Africa/ Middle East",
+    "Country":"Yemen",
+    "Current population (2007":22389169,
+    "Number of cases (Low)":"      66",
+    "Number of cases (High)":7949,
+    "Number of deaths (Low)":1.9,
+    "Number of deaths (High)":4.2
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, Cent.",
+    "Country":"Angola",
+    "Current population (2007":17024084,
+    "Number of cases (Low)":"    1262",
+    "Number of cases (High)":8004,
+    "Number of deaths (Low)":19.6,
+    "Number of deaths (High)":542.5
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, Cent.",
+    "Country":"Central African Republic",
+    "Current population (2007":4342735,
+    "Number of cases (Low)":"     322",
+    "Number of cases (High)":1935,
+    "Number of deaths (Low)":5,
+    "Number of deaths (High)":130.1
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, Cent.",
+    "Country":"Congo",
+    "Current population (2007":3768086,
+    "Number of cases (Low)":"     435",
+    "Number of cases (High)":593,
+    "Number of deaths (Low)":4.3,
+    "Number of deaths (High)":75.2
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, Cent.",
+    "Country":"DR Congo",
+    "Current population (2007":62635723,
+    "Number of cases (Low)":"   16021",
+    "Number of cases (High)":36814,
+    "Number of deaths (Low)":224.3,
+    "Number of deaths (High)":2305.9
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, Cent.",
+    "Country":"Equatorial Guinea",
+    "Current population (2007":507499,
+    "Number of cases (Low)":"      38",
+    "Number of cases (High)":229,
+    "Number of deaths (Low)":0.6,
+    "Number of deaths (High)":15.4
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, Cent.",
+    "Country":"Gabon",
+    "Current population (2007":1330574,
+    "Number of cases (Low)":"      99",
+    "Number of cases (High)":246,
+    "Number of deaths (Low)":2.3,
+    "Number of deaths (High)":13.6
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, East",
+    "Country":"Burundi",
+    "Current population (2007":8508232,
+    "Number of cases (Low)":"    1174",
+    "Number of cases (High)":2230,
+    "Number of deaths (Low)":38.3,
+    "Number of deaths (High)":322.7
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, East",
+    "Country":"Comoros",
+    "Current population (2007":839187,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, East",
+    "Country":"Djibouti",
+    "Current population (2007":833021,
+    "Number of cases (Low)":"     115",
+    "Number of cases (High)":132,
+    "Number of deaths (Low)":3.7,
+    "Number of deaths (High)":8.4
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, East",
+    "Country":"Eritrea",
+    "Current population (2007":4850763,
+    "Number of cases (Low)":"     669",
+    "Number of cases (High)":1233,
+    "Number of deaths (Low)":21.8,
+    "Number of deaths (High)":173.7
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, East",
+    "Country":"Ethiopia",
+    "Current population (2007":83099190,
+    "Number of cases (Low)":"   11468",
+    "Number of cases (High)":21223,
+    "Number of deaths (Low)":373.9,
+    "Number of deaths (High)":3002
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, East",
+    "Country":"Kenya",
+    "Current population (2007":37537716,
+    "Number of cases (Low)":"    5180",
+    "Number of cases (High)":8194,
+    "Number of deaths (Low)":168.9,
+    "Number of deaths (High)":980.8
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, East",
+    "Country":"Madagascar",
+    "Current population (2007":19683358,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, East",
+    "Country":"Malawi",
+    "Current population (2007":13925070,
+    "Number of cases (Low)":"    1922",
+    "Number of cases (High)":3556,
+    "Number of deaths (Low)":62.7,
+    "Number of deaths (High)":503
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, East",
+    "Country":"Mozambique",
+    "Current population (2007":21396916,
+    "Number of cases (Low)":"    2953",
+    "Number of cases (High)":4832,
+    "Number of deaths (Low)":96.3,
+    "Number of deaths (High)":602.5
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, East",
+    "Country":"Rwanda",
+    "Current population (2007":9724577,
+    "Number of cases (Low)":"    1342",
+    "Number of cases (High)":2399,
+    "Number of deaths (Low)":43.8,
+    "Number of deaths (High)":328.5
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, East",
+    "Country":"Somalia",
+    "Current population (2007":8698534,
+    "Number of cases (Low)":"    1200",
+    "Number of cases (High)":2289,
+    "Number of deaths (Low)":39.1,
+    "Number of deaths (High)":332.4
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, East",
+    "Country":"Sudan",
+    "Current population (2007":38560488,
+    "Number of cases (Low)":"    5321",
+    "Number of cases (High)":8554,
+    "Number of deaths (Low)":173.5,
+    "Number of deaths (High)":1044.4
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, East",
+    "Country":"Uganda",
+    "Current population (2007":30883805,
+    "Number of cases (Low)":"    4262",
+    "Number of cases (High)":8109,
+    "Number of deaths (Low)":139,
+    "Number of deaths (High)":1175.5
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, East",
+    "Country":"Tanzania",
+    "Current population (2007":40453513,
+    "Number of cases (Low)":"    5583",
+    "Number of cases (High)":9341,
+    "Number of deaths (Low)":182,
+    "Number of deaths (High)":1194.4
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, East",
+    "Country":"Zambia",
+    "Current population (2007":11921999,
+    "Number of cases (Low)":"    1645",
+    "Number of cases (High)":2731,
+    "Number of deaths (Low)":53.6,
+    "Number of deaths (High)":346.2
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, South",
+    "Country":"Botswana",
+    "Current population (2007":1881504,
+    "Number of cases (Low)":"      21",
+    "Number of cases (High)":58,
+    "Number of deaths (Low)":2.7,
+    "Number of deaths (High)":10
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, South",
+    "Country":"Lesotho",
+    "Current population (2007":2007833,
+    "Number of cases (Low)":"      23",
+    "Number of cases (High)":85,
+    "Number of deaths (Low)":2.9,
+    "Number of deaths (High)":10.6
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, South",
+    "Country":"Namibia",
+    "Current population (2007":2074146,
+    "Number of cases (Low)":"      23",
+    "Number of cases (High)":82,
+    "Number of deaths (Low)":3,
+    "Number of deaths (High)":11
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, South",
+    "Country":"South Africa",
+    "Current population (2007":48576763,
+    "Number of cases (Low)":"    1383",
+    "Number of cases (High)":1864,
+    "Number of deaths (Low)":257.5,
+    "Number of deaths (High)":257.5
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, South",
+    "Country":"Swaziland",
+    "Current population (2007":1141427,
+    "Number of cases (Low)":"      13",
+    "Number of cases (High)":48,
+    "Number of deaths (Low)":1.6,
+    "Number of deaths (High)":6
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, South",
+    "Country":"Zimbabwe",
+    "Current population (2007":13349434,
+    "Number of cases (Low)":"     150",
+    "Number of cases (High)":160,
+    "Number of deaths (Low)":19,
+    "Number of deaths (High)":70.8
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, West",
+    "Country":"Benin",
+    "Current population (2007":9032787,
+    "Number of cases (Low)":"    5913",
+    "Number of cases (High)":11392,
+    "Number of deaths (Low)":650,
+    "Number of deaths (High)":764.1
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, West",
+    "Country":"Burkina Faso",
+    "Current population (2007":14784291,
+    "Number of cases (Low)":"    1109",
+    "Number of cases (High)":8279,
+    "Number of deaths (Low)":200,
+    "Number of deaths (High)":441.9
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, West",
+    "Country":"Cameroon",
+    "Current population (2007":18549176,
+    "Number of cases (Low)":"    2255",
+    "Number of cases (High)":6206,
+    "Number of deaths (Low)":33.8,
+    "Number of deaths (High)":265.9
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, West",
+    "Country":"Cape Verde",
+    "Current population (2007":530437,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":0,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, West",
+    "Country":"Chad",
+    "Current population (2007":10780571,
+    "Number of cases (Low)":"      87",
+    "Number of cases (High)":14414,
+    "Number of deaths (Low)":3.5,
+    "Number of deaths (High)":1008.1
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, West",
+    "Country":"Cote d’Ivoire",
+    "Current population (2007":19261821,
+    "Number of cases (Low)":"    6380",
+    "Number of cases (High)":12366,
+    "Number of deaths (Low)":200,
+    "Number of deaths (High)":300
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, West",
+    "Country":"Gambia",
+    "Current population (2007":1708681,
+    "Number of cases (Low)":"      14",
+    "Number of cases (High)":2344,
+    "Number of deaths (Low)":0.6,
+    "Number of deaths (High)":163.9
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, West",
+    "Country":"Ghana",
+    "Current population (2007":23478394,
+    "Number of cases (Low)":"     190",
+    "Number of cases (High)":24515,
+    "Number of deaths (Low)":7.6,
+    "Number of deaths (High)":1713.3
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, West",
+    "Country":"Guinea-Bissau",
+    "Current population (2007":1695043,
+    "Number of cases (Low)":"      14",
+    "Number of cases (High)":2170,
+    "Number of deaths (Low)":0.5,
+    "Number of deaths (High)":151.8
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, West",
+    "Country":"Guinea",
+    "Current population (2007":9370113,
+    "Number of cases (Low)":"    1275",
+    "Number of cases (High)":6295,
+    "Number of deaths (Low)":28.1,
+    "Number of deaths (High)":468.5
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, West",
+    "Country":"Liberia",
+    "Current population (2007":3750261,
+    "Number of cases (Low)":"      30",
+    "Number of cases (High)":4104,
+    "Number of deaths (Low)":1.2,
+    "Number of deaths (High)":286.9
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, West",
+    "Country":"Mali",
+    "Current population (2007":12336799,
+    "Number of cases (Low)":"     100",
+    "Number of cases (High)":19516,
+    "Number of deaths (Low)":4,
+    "Number of deaths (High)":1365.5
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, West",
+    "Country":"Mauritania",
+    "Current population (2007":3123813,
+    "Number of cases (Low)":"      25",
+    "Number of cases (High)":2325,
+    "Number of deaths (Low)":1,
+    "Number of deaths (High)":162.3
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, West",
+    "Country":"Niger",
+    "Current population (2007":14225521,
+    "Number of cases (Low)":"    1337",
+    "Number of cases (High)":21527,
+    "Number of deaths (Low)":26.7,
+    "Number of deaths (High)":76.5
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, West",
+    "Country":"Nigeria",
+    "Current population (2007":148092542,
+    "Number of cases (Low)":"    1200",
+    "Number of cases (High)":141710,
+    "Number of deaths (Low)":48,
+    "Number of deaths (High)":9900.9
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, West",
+    "Country":"Saint Helena",
+    "Current population (2007":5000,
+    "Number of cases (Low)":"       0",
+    "Number of cases (High)":6,
+    "Number of deaths (Low)":0,
+    "Number of deaths (High)":0.4
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, West",
+    "Country":"Sao Tome & Principe",
+    "Current population (2007":157638,
+    "Number of cases (Low)":"       1",
+    "Number of cases (High)":217,
+    "Number of deaths (Low)":0.1,
+    "Number of deaths (High)":15.2
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, West",
+    "Country":"Senegal",
+    "Current population (2007":12378532,
+    "Number of cases (Low)":"    1238",
+    "Number of cases (High)":1946,
+    "Number of deaths (Low)":185.7,
+    "Number of deaths (High)":867
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, West",
+    "Country":"Sierra Leone",
+    "Current population (2007":5865872,
+    "Number of cases (Low)":"      48",
+    "Number of cases (High)":6724,
+    "Number of deaths (Low)":1.9,
+    "Number of deaths (High)":470.1
+  },
+  {
+    "Geographical Region":"Sub Saharan Africa, West",
+    "Country":"Togo",
+    "Current population (2007":6585147,
+    "Number of cases (Low)":"    6783",
+    "Number of cases (High)":8644,
+    "Number of deaths (Low)":197.6,
+    "Number of deaths (High)":232
+  }
+]

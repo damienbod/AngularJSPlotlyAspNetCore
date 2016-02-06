@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html>
+
+
+<head>
+    <!-- Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- Numeric JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/numeric/1.2.6/numeric.min.js"></script>
+</head>
+
+<body>
+
+    <div id="myDiv" style="width: 1200px; height: 600px;"><!-- Plotly chart will be drawn inside this DIV --></div>
+<script>
+    
+    var ultimateColors = [
+      ['rgb(0, 153, 0)', 'rgb(224,224,224)'],
+      ['rgb(209, 239, 12)', 'rgb(224,224,224)'],
+      ['rgb(255, 51, 51)', 'rgb(224,224,224)']
+    ];
+    
+    var data = [
+        {
+            values: [.73, 0.27],
+            labels: ['OEE'],
+            marker: {
+                colors: ultimateColors[0]
+            },
+            domain: {
+                x: [0, .30],
+                y: [0, 1]
+            },
+            name: 'OEE',
+            hoverinfo: 'label+percent+name',
+            hole: .4,
+            type: 'pie'
+        },
+        {
+            values: [.89, 0.11],
+            labels: ['Availability'],
+            domain: {
+                x: [0.33, 0.53],
+                y: [0, 0.6]
+            },
+            marker: {
+                colors: ultimateColors[0]
+            },
+            name: 'Availability',
+            hoverinfo: 'label+percent+name',
+            hole: .4,
+            type: 'pie'
+        },
+        {
+            values: [.69, 0.31],
+            labels: ['Quality'],
+            marker: {
+                colors: ultimateColors[0]
+            },
+            domain: {
+                x: [0.56, .76],
+                y: [0, 0.6]
+            },
+            name: 'Quality',
+            hoverinfo: 'label+percent+name',
+            hole: .4,
+            type: 'pie'
+        },
+        {
+            values: [.69, 0.31],
+            labels: ['Performance'],
+            marker: {
+                colors: ultimateColors[1]
+            },
+            domain: {
+                x: [0.79, .99],
+                y: [0, 0.6]
+            },
+            name: 'Performance',
+            hoverinfo: 'label+percent+name',
+            hole: .4,
+            type: 'pie'
+        }
+
+    ];
+
+    var layout = {
+        title: 'OEE Machine XXX',
+        annotations: [
+            {
+                font: {
+                    size: 20
+                },
+                showarrow: false,
+                text: 'OEE',
+                x: 0.12,
+                y: 0.5
+            },
+            {
+                font: {
+                    size: 10
+                },
+                showarrow: false,
+                text: 'Availability',
+                x: 0.43,
+                y: 0.28
+            }, {
+                font: {
+                    size: 10
+                },
+                showarrow: false,
+                text: 'Quality',
+                x: 0.68,
+                y: 0.28
+            }, {
+                font: {
+                    size: 10
+                },
+                showarrow: false,
+                text: 'Performance',
+                x: 0.93,
+                y: 0.28
+            }
+        ],
+        height: 600,
+        width: 1200
+    };
+
+    Plotly.newPlot('myDiv', data, layout);
+</script>
+</body>
+
+
+</html>

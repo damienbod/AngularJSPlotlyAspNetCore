@@ -1,0 +1,9 @@
+﻿
+<button class="btn btn-secondary" ui-sref="linechart({machineName: machineName, datapoint: barChartData.Datapoint, perMonthWeekYear: 'D'})">Last 100 Days</button>
+<button class="btn btn-secondary" ui-sref="linechart({machineName: machineName, datapoint: barChartData.Datapoint, perMonthWeekYear: 'W'})">Last 52 weeks</button>
+<button class="btn btn-secondary" ui-sref="linechart({machineName: machineName, datapoint: barChartData.Datapoint, perMonthWeekYear: 'M'})">Last 12 Months</button>
+
+<div>
+    <plotly data="data" layout="layout" options="options"></plotly>
+</div>
+
