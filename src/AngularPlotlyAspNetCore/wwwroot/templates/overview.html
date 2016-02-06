@@ -1,12 +1,12 @@
 ﻿<div class="panel-group">
 
-       <div class="mcbutton col-md-3" style="margin-left: -15px; margin-bottom: 10px;" ng-repeat="geographicalRegion in geographicalRegions">
+       <div class="mcbutton col-md-4" style="margin-left: -15px; margin-bottom: 10px;" ng-repeat="geographicalRegion in geographicalRegions">
            <div class="panel panel-default">
                <div class="panel-heading">
                    <i class="fa fa-heartbeat" style="color: red; margin-right: 20px;"></i>
-                   {{geographicalRegion.Name}}, Countries: {{machine.Countries}} 
+                   {{geographicalRegion.Name}}, Countries: {{geographicalRegion.Countries}} 
                </div>
-               <div class="panel-body" style="height: 200px;">
+               <div class="panel-body" style="height: 100px;">
                    <!--<img src="images/mc1.jpg" style="width: 100%;margin-top: 20px;" />-->
                </div>
            </div>

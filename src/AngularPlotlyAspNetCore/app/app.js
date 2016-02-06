@@ -9,47 +9,48 @@
 		function ($stateProvider, $urlRouterProvider) {
             	$urlRouterProvider.otherwise("/overview");
 
-		    $stateProvider
-		        .state("overview", {
-		            url: "/overview",
-		            templateUrl: "/templates/overview.html",
-		            controller: "OverviewController",
-		            resolve: {
+            	$stateProvider
+                    .state("overview", {
+                        url: "/overview",
+                        templateUrl: "/templates/overview.html",
+                        controller: "OverviewController",
+                        resolve: {
 
-		                OeeDataService: "SnakeDataService",
+                            SnakeDataService: "SnakeDataService",
 
-		                machines: ["SnakeDataService",  function (SnakeDataService) {
-		                    return SnakeDataService.getGeographicalRegions();
-		                }]
-		            }
+                            geographicalRegions: ["SnakeDataService", function (SnakeDataService) {
+                                return SnakeDataService.getGeographicalRegions();
+                            }]
+                        }
 
-		        })
-		        .state("details", {
-		            url: "/details/:machineName",
-		            templateUrl: "/templates/details.html",
-		            controller: "DetailsController",
-		            resolve: {
+                    });
 
-		                OeeDataService: "OeeDataService",
+		    //    .state("details", {
+		    //        url: "/details/:machineName",
+		    //        templateUrl: "/templates/details.html",
+		    //        controller: "DetailsController",
+		    //        resolve: {
 
-		                oeeMachineData: ["OeeDataService", "$stateParams", function (OeeDataService, $stateParams) {
-		                    return OeeDataService.getMachineOee($stateParams.machineName);
-		            }]
-		            }
-		        })
-            .state("linechart", {
-                url: "/linechart/:machineName/:datapoint/:perMonthWeekYear",
-                templateUrl: "/templates/linechart.html",
-                controller: "LineChartController",
-                resolve: {
+		    //            OeeDataService: "OeeDataService",
 
-                    OeeDataService: "OeeDataService",
+		    //            oeeMachineData: ["OeeDataService", "$stateParams", function (OeeDataService, $stateParams) {
+		    //                return OeeDataService.getMachineOee($stateParams.machineName);
+		    //        }]
+		    //        }
+		    //    })
+            //.state("linechart", {
+            //    url: "/linechart/:machineName/:datapoint/:perMonthWeekYear",
+            //    templateUrl: "/templates/linechart.html",
+            //    controller: "LineChartController",
+            //    resolve: {
 
-                    barChartData: ["OeeDataService", "$stateParams", function (OeeDataService, $stateParams) {
-                        return OeeDataService.getBarChartData($stateParams.machineName, $stateParams.datapoint, $stateParams.perMonthWeekYear);
-                    }]
-                }
-            });
+            //        OeeDataService: "OeeDataService",
+
+            //        barChartData: ["OeeDataService", "$stateParams", function (OeeDataService, $stateParams) {
+            //            return OeeDataService.getBarChartData($stateParams.machineName, $stateParams.datapoint, $stateParams.perMonthWeekYear);
+            //        }]
+            //    }
+            //});
 		}
 	]
     );

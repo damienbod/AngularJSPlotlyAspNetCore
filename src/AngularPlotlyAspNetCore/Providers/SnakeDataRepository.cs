@@ -24,13 +24,20 @@ namespace AngularPlotlyAspNetCore.Providers
 
         public List<GeographicalRegion> GetGeographicalRegions()
         {
-            List<GeographicalRegion> machines = new List<GeographicalRegion>();
+            List<GeographicalRegion> geographicalRegions = new List<GeographicalRegion>();
             var oeeDataAverageAgg = new OeeDataAverageAgg();
             var search = new Search
             {
                 Aggs = new List<IAggs>
                 {
                     new TermsBucketAggregation("getgeographicalregions", "geographicalregion")
+                    {
+                        Aggs = new List<IAggs>
+                        {
+                            new ValueCountMetricAggregation("countCases", "numberofcaseshigh"),
+                            new ValueCountMetricAggregation("countDeaths", "numberofdeathshigh")
+                        }
+                    }
                 }
             };
 
@@ -49,7 +56,7 @@ namespace AngularPlotlyAspNetCore.Providers
 
                     foreach (var bucket in aggResult.Buckets)
                     {
-                        machines.Add(new GeographicalRegion { Countries = bucket.DocCount, Name = bucket.Key.ToString() });
+                        geographicalRegions.Add(new GeographicalRegion { Countries = bucket.DocCount, Name = bucket.Key.ToString() });
                     }
                     oeeDataAverageAgg.DataPoints = items.PayloadResult.Hits.Total;
                 }
@@ -59,7 +66,7 @@ namespace AngularPlotlyAspNetCore.Providers
                 }
             }
                    
-            return machines;
+            return geographicalRegions;
         } 
 
         public OeeDataAverageAgg GetOeeForAll()

@@ -17,6 +17,8 @@
 	    $scope.message = "Overview";
 	    $scope.geographicalRegions = geographicalRegions;
 
+	    $log.info(geographicalRegions);
+
 
 	}
 })();
