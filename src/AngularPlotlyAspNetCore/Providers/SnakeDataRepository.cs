@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading;
 using AngularPlotlyAspNetCore.Models;
 using ElasticsearchCRUD;
 using ElasticsearchCRUD.ContextSearch.SearchModel;
@@ -21,15 +22,15 @@ namespace AngularPlotlyAspNetCore.Providers
         //private string _connectionString = "http://localhost.fiddler:9200";
         private string _connectionString = "http://localhost:9200";
 
-        public List<Machine> GetMachines()
+        public List<GeographicalRegion> GetGeographicalRegions()
         {
-            List<Machine> machines = new List<Machine>();
+            List<GeographicalRegion> machines = new List<GeographicalRegion>();
             var oeeDataAverageAgg = new OeeDataAverageAgg();
             var search = new Search
             {
                 Aggs = new List<IAggs>
                 {
-                    new TermsBucketAggregation("getmachines", "machinename")
+                    new TermsBucketAggregation("getgeographicalregions", "geographicalregion")
                 }
             };
 
@@ -44,11 +45,11 @@ namespace AngularPlotlyAspNetCore.Providers
 
                 try
                 {
-                    var aggResult = items.PayloadResult.Aggregations.GetComplexValue<TermsBucketAggregationsResult>("getmachines");
+                    var aggResult = items.PayloadResult.Aggregations.GetComplexValue<TermsBucketAggregationsResult>("getgeographicalregions");
 
                     foreach (var bucket in aggResult.Buckets)
                     {
-                        machines.Add(new Machine { DatapointsCount = bucket.DocCount, MachineName = bucket.Key.ToString() });
+                        machines.Add(new GeographicalRegion { Countries = bucket.DocCount, Name = bucket.Key.ToString() });
                     }
                     oeeDataAverageAgg.DataPoints = items.PayloadResult.Hits.Total;
                 }
@@ -230,9 +231,14 @@ namespace AngularPlotlyAspNetCore.Providers
 
         public void AddAllData()
         {
+            var elasticsearchContext = new ElasticsearchContext("http://localhost:9200/", new ElasticsearchMappingResolver());
+
+            elasticsearchContext.IndexCreate<SnakeBites>();
+
+            Thread.Sleep(2000);
+
             List<SnakeBites> data = JsonConvert.DeserializeObject<List<SnakeBites>>(File.ReadAllText(@"C:\\git\\damienbod\\AngularPlotlyAspNetCore\\src\\AngularPlotlyAspNetCore\\snakeBitesData.json"));
             long counter = 1;
-            var elasticsearchContext = new ElasticsearchContext("http://localhost:9200/", new ElasticsearchMappingResolver());
             foreach (var snakeCountry in data)
             {
                 // create some documents

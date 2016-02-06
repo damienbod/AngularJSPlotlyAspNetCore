@@ -18,10 +18,10 @@ namespace AngularPlotlyAspNetCore.Controllers
         }
 
 
-        [HttpGet("Machines")]
-        public List<Machine> GetMachines()
+        [HttpGet("GeographicalRegions")]
+        public List<GeographicalRegion> GetGeographicalRegions()
         {
-            return _snakeDataRepository.GetMachines();
+            return _snakeDataRepository.GetGeographicalRegions();
         }
 
         // GET: api/values

@@ -5,7 +5,7 @@ namespace AngularPlotlyAspNetCore
 {
     public interface ISnakeDataRepository
     {
-        List<Machine> GetMachines();
+        List<GeographicalRegion> GetGeographicalRegions();
 
         OeeDataAverageAgg GetOeeForAll();
 
