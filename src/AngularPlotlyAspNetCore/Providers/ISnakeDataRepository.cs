@@ -7,11 +7,7 @@ namespace AngularPlotlyAspNetCore
     {
         List<GeographicalRegion> GetGeographicalRegions();
 
-        OeeDataAverageAgg GetOeeForAll();
-
-        List<OeeDataAverageAgg> GetOeeForMachines(List<string> machineNames);
-
-        OeeDataProUnit GetLineDataForMachine(string machineName, string datapoint, string proYearMonthDay);
+        GeographicalCountries GetBarChartDataForRegion(string machineName, string datapoint);
 
         void AddAllData();
     }

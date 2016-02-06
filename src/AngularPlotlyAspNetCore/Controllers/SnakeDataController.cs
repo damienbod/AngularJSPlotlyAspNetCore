@@ -24,19 +24,6 @@ namespace AngularPlotlyAspNetCore.Controllers
             return _snakeDataRepository.GetGeographicalRegions();
         }
 
-        // GET: api/values
-        public OeeDataAverageAgg Get()
-        {
-            return _snakeDataRepository.GetOeeForAll();
-        }
-
-        [HttpGet("{machineName}")]
-        public OeeDataAverageAgg GetForMachine(string machineName)
-        { 
-            var data = _snakeDataRepository.GetOeeForMachines(new List<string>() { machineName}).FirstOrDefault();
-            data.MachineName = machineName;
-            return data;
-        }
 
         /// <summary>
         /// 
@@ -45,17 +32,12 @@ namespace AngularPlotlyAspNetCore.Controllers
         /// <param name="datapoint"></param>
         /// <param name="proYearMonthDay">Y, M, D</param>
         /// <returns></returns>
-        [HttpGet("LineData/{machineName}/{datapoint}/{proYearMonthDay}")]
-        public OeeDataProUnit GetLineDataForMachine(string machineName, string datapoint, string proYearMonthDay)
+        [HttpGet("LineData/{region}/{datapoint}")]
+        public GeographicalCountries GetLineDataForMachine(string region, string datapoint)
         {
-            return _snakeDataRepository.GetLineDataForMachine(machineName, datapoint, proYearMonthDay);
+            return _snakeDataRepository.GetBarChartDataForRegion(region, datapoint);
         }
 
-        [HttpGet("CompareMachineOee/{machineName1}/{machineName2}")]
-        public List<OeeDataAverageAgg> CompareMachineOee(string machineName1, string machineName2)
-        {
-            return _snakeDataRepository.GetOeeForMachines(new List<string>() { machineName1, machineName2 });
-        }
 
         [HttpGet("AddAllData")]
         public IActionResult AddAllData()
