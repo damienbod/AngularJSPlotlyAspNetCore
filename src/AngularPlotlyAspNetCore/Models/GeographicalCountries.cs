@@ -16,9 +16,7 @@ namespace AngularPlotlyAspNetCore.Models
 
         public string RegionName { get; set; }
 
-        public string Datapoint { get; set; }
-
-        public List<double> DataPointsCount { get; set; }
+        public List<double> Population { get; set; }
    
         public List<string> X { get; set; }
 

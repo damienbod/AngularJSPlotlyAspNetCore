@@ -1,6 +1,5 @@
 ﻿/// <autosync enabled="true" />
 /// <reference path="../app/app.js" />
-/// <reference path="../app/controllers/DetailsController.js" />
 /// <reference path="../app/controllers/OverviewController.js" />
 /// <reference path="../app/controllers/regionbarchartcontroller.js" />
 /// <reference path="../app/services/SnakeDataService.js" />

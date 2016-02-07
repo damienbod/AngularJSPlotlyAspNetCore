@@ -19,25 +19,17 @@
 	    $scope.barChartData = barChartData;
 	    
 
-	    $scope.machineName = $scope.barChartData.MachineName;
+	    $scope.RegionName = $scope.barChartData.RegionName;
 
 	    $scope.layout = {
-	        title: $scope.barChartData.MachineName + ": " + $scope.barChartData.Datapoint,
+	        title: $scope.barChartData.RegionName + ": Number of snake bite deaths" ,
 	        height: 500,
 	        width: 1200
 	    };
 
 	   
 	    function getYDatafromDatPoint() {
-	        if ($scope.barChartData.Datapoint === 'quality') {
-	            return $scope.barChartData.QualityData.Y;
-	        } else if ($scope.barChartData.Datapoint === 'performance') {
-	            return $scope.barChartData.PerformanceData.Y;
-	        } else if ($scope.barChartData.Datapoint === 'availability') {
-	            return $scope.barChartData.AvailabilityData.Y;
-	        } else {
-	            return $scope.barChartData.OeeTracesData.Y;
-	        }
+	        return $scope.barChartData.NumberOfDeathsHighData.Y;
 	    }
 
 	    $scope.data = [

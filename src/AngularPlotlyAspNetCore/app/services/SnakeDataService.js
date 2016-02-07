@@ -13,10 +13,10 @@
 			});
 		}
 
-		var getRegionBarChartData = function (region, dataPoints) {
+		var getRegionBarChartData = function (region) {
 		    $log.info("SnakeDataService getRegionBarChartData: " + region);
 		    $log.info(region);
-		    return $http.get("/api/SnakeData/RegionBarChart/" + region + "/" + dataPoints)
+		    return $http.get("/api/SnakeData/RegionBarChart/" + region )
 			.then(function (response) {
 			    return response.data;
 			});

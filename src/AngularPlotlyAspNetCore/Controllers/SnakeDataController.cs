@@ -20,10 +20,10 @@ namespace AngularPlotlyAspNetCore.Controllers
             return _snakeDataRepository.GetGeographicalRegions();
         }
 
-        [HttpGet("RegionBarChart/{region}/{datapoint}")]
-        public GeographicalCountries GetLineDataForMachine(string region, string datapoint)
+        [HttpGet("RegionBarChart/{region}")]
+        public GeographicalCountries GetLineDataForMachine(string region)
         {
-            return _snakeDataRepository.GetBarChartDataForRegion(region, datapoint);
+            return _snakeDataRepository.GetBarChartDataForRegion(region);
         }
 
         [HttpGet("AddAllData")]

@@ -24,7 +24,7 @@
                         }
 
                     }).state("regionbarchart", {
-                        url: "/regionbarchart/:region/:datapoint",
+                        url: "/regionbarchart/:region",
 		                templateUrl: "/templates/regoinbarchart.html",
 		                controller: "RegionBarChartController",
 		                resolve: {
@@ -32,25 +32,10 @@
 		                    SnakeDataService: "SnakeDataService",
 
 		                    barChartData: ["SnakeDataService", "$stateParams", function (SnakeDataService, $stateParams) {
-		                        return SnakeDataService.getRegionBarChartData($stateParams.region, $stateParams.datapoint);
+		                        return SnakeDataService.getRegionBarChartData($stateParams.region);
 		                }]
 		        }
-		    });
-
-		    //    .state("details", {
-		    //        url: "/details/:machineName",
-		    //        templateUrl: "/templates/details.html",
-		    //        controller: "DetailsController",
-		    //        resolve: {
-
-		    //            OeeDataService: "OeeDataService",
-
-		    //            oeeMachineData: ["OeeDataService", "$stateParams", function (OeeDataService, $stateParams) {
-		    //                return OeeDataService.getMachineOee($stateParams.machineName);
-		    //        }]
-		    //        }
-		    //    })
-            
+		    });           
 		}
 	]
     );

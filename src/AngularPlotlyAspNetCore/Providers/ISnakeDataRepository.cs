@@ -7,7 +7,7 @@ namespace AngularPlotlyAspNetCore
     {
         List<GeographicalRegion> GetGeographicalRegions();
 
-        GeographicalCountries GetBarChartDataForRegion(string machineName, string datapoint);
+        GeographicalCountries GetBarChartDataForRegion(string machineName);
 
         void AddAllData();
     }

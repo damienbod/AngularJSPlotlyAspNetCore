@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Threading;
 using AngularPlotlyAspNetCore.Models;
 using ElasticsearchCRUD;
@@ -10,7 +9,6 @@ using ElasticsearchCRUD.ContextSearch.SearchModel.AggModel;
 using ElasticsearchCRUD.ContextSearch.SearchModel.AggModel.Buckets;
 using ElasticsearchCRUD.Model.SearchModel;
 using ElasticsearchCRUD.Model.SearchModel.Aggregations;
-using ElasticsearchCRUD.Model.SearchModel.Aggregations.RangeParam;
 using ElasticsearchCRUD.Model.SearchModel.Queries;
 using Newtonsoft.Json;
 
@@ -78,79 +76,36 @@ namespace AngularPlotlyAspNetCore.Providers
             return geographicalRegions;
         } 
 
-        //public List<OeeDataAverageAgg> GetOeeForMachines(List<string> machineNames)
-        //{
-        //    string searchText = machineNames.Aggregate("", (current, term) => current + term.ToLower() + " ");
-
-        //    List<OeeDataAverageAgg> results = new List<OeeDataAverageAgg>();
-        //    var oeeDataAverageAgg = new OeeDataAverageAgg();
-        //    var search = new Search
-        //    {
-        //        Query = new Query(new MatchQuery("machinename", searchText)),
-        //        Aggs = new List<IAggs>
-        //        {
-        //            new AvgMetricAggregation("AverageAggAvailability", "availability"),
-        //            new AvgMetricAggregation("AverageAggPerformance", "performance"),
-        //            new AvgMetricAggregation("AverageAggQuality", "quality"),
-        //            new AvgMetricAggregation("AverageAggOee", "oee")
-        //        }
-        //    };
-
-        //    using (var context = new ElasticsearchContext(_connectionString, _elasticsearchMappingResolver))
-        //    {
-        //        var items = context.Search<SnakeBites>(
-        //            search,
-        //            new SearchUrlParameters
-        //            {
-        //                SeachType = SeachType.count
-        //            });
-
-        //        oeeDataAverageAgg.Availability = Math.Round(items.PayloadResult.Aggregations.GetSingleMetricAggregationValue<double>("AverageAggAvailability"), 2);
-        //        oeeDataAverageAgg.Performance = Math.Round(items.PayloadResult.Aggregations.GetSingleMetricAggregationValue<double>("AverageAggPerformance"), 2);
-        //        oeeDataAverageAgg.Quality = Math.Round(items.PayloadResult.Aggregations.GetSingleMetricAggregationValue<double>("AverageAggQuality"), 2);
-        //        oeeDataAverageAgg.Oee = Math.Round(items.PayloadResult.Aggregations.GetSingleMetricAggregationValue<double>("AverageAggOee"), 2);
-
-        //        oeeDataAverageAgg.DataPoints = items.PayloadResult.Hits.Total;
-        //    }
-
-        //    results.Add(oeeDataAverageAgg);
-        //    return results;
-        //}
-
-        public GeographicalCountries GetBarChartDataForRegion(string region, string datapoint)
+        public GeographicalCountries GetBarChartDataForRegion(string region)
         {
-            GeographicalCountries result = new GeographicalCountries { RegionName = region, Datapoint = datapoint};
+            GeographicalCountries result = new GeographicalCountries { RegionName = region};
 
             var search = new Search
             {
                 Query = new Query(new MatchQuery("geographicalregion", region)),
-                Aggs = new List<IAggs>
-                {
-                    new TermsBucketAggregation("termsCountry", "country")
-                }
+                Size= 100
             };
 
             using (var context = new ElasticsearchContext(_connectionString, _elasticsearchMappingResolver))
             {
-                var items = context.Search<SnakeBites>(search, new SearchUrlParameters { SeachType = SeachType.count });
-                var aggResult = items.PayloadResult.Aggregations.GetComplexValue<TermsBucketAggregationsResult>("termsCountry");
-
+                var items = context.Search<SnakeBites>(search);
+                
                 result.NumberOfCasesHighData = new BarTrace { Y = new List<double>()};
                 result.NumberOfCasesLowData = new BarTrace {Y = new List<double>() };
                 result.NumberOfDeathsHighData = new BarTrace {  Y = new List<double>() };
                 result.NumberOfDeathsLowData = new BarTrace {  Y = new List<double>() };
                 result.X = new List<string>();
-                result.DataPointsCount = new List<double>();
+                result.Population = new List<double>();
 
-                foreach (var bucket in aggResult.Buckets)
+                foreach (var item in items.PayloadResult.Hits.HitsResult)
                 {
-                    //result.NumberOfCasesHighData.Y.Add(GetBucketValue(bucket., "AverageAggAvailability"));
-                    //result.NumberOfCasesLowData.Y.Add(GetBucketValue(aggResult, "AverageAggPerformance"));
-                    //result.NumberOfDeathsHighData.Y.Add(GetBucketValue(aggResult, "AverageAggQuality"));
-                    //result.NumberOfDeathsLowData.Y.Add(GetBucketValue(aggResult, "AverageAggOee"));
+                    result.NumberOfCasesHighData.Y.Add(item.Source.NumberOfCasesHigh);
+                    result.NumberOfCasesLowData.Y.Add(item.Source.NumberOfCasesLow);
+                    result.NumberOfDeathsHighData.Y.Add(item.Source.NumberOfDeathsHigh);
+                    result.NumberOfDeathsLowData.Y.Add(item.Source.NumberOfDeathsLow);
 
-                    result.X.Add(bucket.Key.ToString());
-                    result.DataPointsCount.Add(bucket.DocCount);
+                    result.X.Add(item.Source.Country);
+                    //result.DataPointsCount.Add(item.Source.p);
                 }
             }
 

@@ -1,6 +1,6 @@
 ﻿<div class="panel-group">
 
-       <div class="mcbutton col-md-4" style="margin-left: -15px; margin-bottom: 10px;" ui-sref="regionbarchart({region: geographicalRegion.Name, datapoint: 'numberofdeathshigh'})" ng-repeat="geographicalRegion in geographicalRegions">
+       <div class="mcbutton col-md-4" style="margin-left: -15px; margin-bottom: 10px;" ui-sref="regionbarchart({region: geographicalRegion.Name})" ng-repeat="geographicalRegion in geographicalRegions">
            <div class="panel panel-default">
                <div class="panel-heading">
                    <i class="fa fa-ban" style="color: red; margin-right: 20px;" ng-show="geographicalRegion.DangerHigh"></i>
