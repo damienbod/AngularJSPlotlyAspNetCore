@@ -1,0 +1,5 @@
+src/AngularPlotlyAspNetCore/bower_components
+src/AngularPlotlyAspNetCore/node_modules
+.vs/AngularPlotlyAspNetCore/v14/.suo
+src/AngularPlotlyAspNetCore/AngularPlotlyAspNetCore.xproj.user
+.vs
