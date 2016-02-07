@@ -95,7 +95,6 @@ namespace AngularPlotlyAspNetCore.Providers
                 result.NumberOfDeathsHighData = new BarTrace {  Y = new List<double>() };
                 result.NumberOfDeathsLowData = new BarTrace {  Y = new List<double>() };
                 result.X = new List<string>();
-                result.Population = new List<double>();
 
                 foreach (var item in items.PayloadResult.Hits.HitsResult)
                 {
@@ -105,7 +104,6 @@ namespace AngularPlotlyAspNetCore.Providers
                     result.NumberOfDeathsLowData.Y.Add(item.Source.NumberOfDeathsLow);
 
                     result.X.Add(item.Source.Country);
-                    //result.DataPointsCount.Add(item.Source.p);
                 }
             }
 

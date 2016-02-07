@@ -15,8 +15,6 @@ namespace AngularPlotlyAspNetCore.Models
         public BarTrace NumberOfDeathsHighData { get; set; }
 
         public string RegionName { get; set; }
-
-        public List<double> Population { get; set; }
    
         public List<string> X { get; set; }
 
