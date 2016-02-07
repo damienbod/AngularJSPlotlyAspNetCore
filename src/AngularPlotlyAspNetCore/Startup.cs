@@ -25,6 +25,9 @@ namespace AngularPlotlyAspNetCore
             // Add framework services.
             services.AddMvc();
 
+            services.Configure<SnakeDataRepositoryConfiguration>(
+            Configuration.GetSection("SnakeDataRepository"));
+
             services.AddScoped<ISnakeDataRepository, SnakeDataRepository>();
         }
 

@@ -10,15 +10,25 @@ using ElasticsearchCRUD.ContextSearch.SearchModel.AggModel.Buckets;
 using ElasticsearchCRUD.Model.SearchModel;
 using ElasticsearchCRUD.Model.SearchModel.Aggregations;
 using ElasticsearchCRUD.Model.SearchModel.Queries;
+using Microsoft.Extensions.OptionsModel;
 using Newtonsoft.Json;
 
 namespace AngularPlotlyAspNetCore.Providers
-{    public class SnakeDataRepository : ISnakeDataRepository
+{
+    public class SnakeDataRepository : ISnakeDataRepository
     {
+        private IOptions<SnakeDataRepositoryConfiguration> _optionsApplicationConfiguration;
         private readonly IElasticsearchMappingResolver _elasticsearchMappingResolver = new ElasticsearchMappingResolver();
-
         //private string _connectionString = "http://localhost.fiddler:9200";
-        private string _connectionString = "http://localhost:9200";
+        private string _connectionString;
+
+        public SnakeDataRepository(IOptions<SnakeDataRepositoryConfiguration> o)
+        {
+            _optionsApplicationConfiguration = o;
+            _connectionString = _optionsApplicationConfiguration.Value.ElasticsearchPath;
+        }
+
+
 
         public List<GeographicalRegion> GetGeographicalRegions()
         {
@@ -125,7 +135,7 @@ namespace AngularPlotlyAspNetCore.Providers
 
             Thread.Sleep(2000);
 
-            List<SnakeBites> data = JsonConvert.DeserializeObject<List<SnakeBites>>(File.ReadAllText(@"C:\\git\\damienbod\\AngularPlotlyAspNetCore\\src\\AngularPlotlyAspNetCore\\snakeBitesData.json"));
+            List<SnakeBites> data = JsonConvert.DeserializeObject<List<SnakeBites>>(File.ReadAllText(_optionsApplicationConfiguration.Value.FilePath));
             long counter = 1;
             foreach (var snakeCountry in data)
             {
