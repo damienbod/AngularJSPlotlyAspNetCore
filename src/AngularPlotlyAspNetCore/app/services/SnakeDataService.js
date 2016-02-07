@@ -13,20 +13,10 @@
 			});
 		}
 
-		var getMachineOee = function (machineName) {
-		    $log.info("SnakeDataService get MC1 data called: " + machineName);
-		    $log.info(machineName);
-			return $http.get("/api/OeeData/" + machineName)
-			.then(function (response) {
-				return response.data;
-			});
-		}
-
-	    // http://localhost:31274/api/OeeData/LineData/mc1/oee/w
-		var getBarChartData = function (machineName, dataPoints, perMonthWeekYear) {
-		    $log.info("SnakeDataService getBarChartData: " + machineName);
-		    $log.info(machineName);
-		    return $http.get("/api/OeeData/LineData/" + machineName + "/" + dataPoints + "/" + perMonthWeekYear)
+		var getRegionBarChartData = function (region, dataPoints) {
+		    $log.info("SnakeDataService getRegionBarChartData: " + region);
+		    $log.info(region);
+		    return $http.get("/api/SnakeData/RegionBarChart/" + region + "/" + dataPoints)
 			.then(function (response) {
 			    return response.data;
 			});
@@ -34,8 +24,7 @@
 
 		return {
 		    getGeographicalRegions: getGeographicalRegions,
-		    getMachineOee: getMachineOee,
-		    getBarChartData: getBarChartData
+		    getRegionBarChartData: getRegionBarChartData
 		}
 	}
 

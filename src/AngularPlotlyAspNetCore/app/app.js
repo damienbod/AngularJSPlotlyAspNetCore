@@ -23,7 +23,19 @@
                             }]
                         }
 
-                    });
+                    }).state("regionbarchart", {
+                        url: "/regionbarchart/:region/:datapoint",
+		                templateUrl: "/templates/regoinbarchart.html",
+		                controller: "RegionBarChartController",
+		                resolve: {
+
+		                    SnakeDataService: "SnakeDataService",
+
+		                    barChartData: ["SnakeDataService", "$stateParams", function (SnakeDataService, $stateParams) {
+		                        return SnakeDataService.getRegionBarChartData($stateParams.region, $stateParams.datapoint);
+		                }]
+		        }
+		    });
 
 		    //    .state("details", {
 		    //        url: "/details/:machineName",
@@ -38,19 +50,7 @@
 		    //        }]
 		    //        }
 		    //    })
-            //.state("linechart", {
-            //    url: "/linechart/:machineName/:datapoint/:perMonthWeekYear",
-            //    templateUrl: "/templates/linechart.html",
-            //    controller: "LineChartController",
-            //    resolve: {
-
-            //        OeeDataService: "OeeDataService",
-
-            //        barChartData: ["OeeDataService", "$stateParams", function (OeeDataService, $stateParams) {
-            //            return OeeDataService.getBarChartData($stateParams.machineName, $stateParams.datapoint, $stateParams.perMonthWeekYear);
-            //        }]
-            //    }
-            //});
+            
 		}
 	]
     );
