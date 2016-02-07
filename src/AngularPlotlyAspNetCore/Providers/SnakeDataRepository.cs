@@ -135,8 +135,6 @@ namespace AngularPlotlyAspNetCore.Providers
             }
 
             elasticsearchContext.SaveChanges();
-
-
         }
     }
 

@@ -21,7 +21,7 @@ namespace AngularPlotlyAspNetCore.Controllers
         }
 
         [HttpGet("RegionBarChart/{region}")]
-        public GeographicalCountries GetLineDataForMachine(string region)
+        public GeographicalCountries GetBarChartDataForRegion(string region)
         {
             return _snakeDataRepository.GetBarChartDataForRegion(region);
         }
