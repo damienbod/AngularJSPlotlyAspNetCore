@@ -67,9 +67,9 @@ namespace AngularPlotlyAspNetCore.Providers
 
                     }
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-                   
+                    Console.WriteLine(ex.Message);
                 }
             }
                    
@@ -137,6 +137,4 @@ namespace AngularPlotlyAspNetCore.Providers
             elasticsearchContext.SaveChanges();
         }
     }
-
- 
 }
