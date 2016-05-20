@@ -3,3 +3,5 @@ src/AngularPlotlyAspNetCore/node_modules
 .vs/AngularPlotlyAspNetCore/v14/.suo
 src/AngularPlotlyAspNetCore/AngularPlotlyAspNetCore.xproj.user
 .vs
+src/AngularPlotlyAspNetCore/bin
+src/AngularPlotlyAspNetCore/obj
