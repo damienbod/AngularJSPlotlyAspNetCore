@@ -26,6 +26,7 @@ namespace AngularPlotlyAspNetCore.Controllers
             return _snakeDataRepository.GetBarChartDataForRegion(region);
         }
 
+        // http://localhost:8333/api/SnakeData/AddAllData
         [HttpGet("AddAllData")]
         public IActionResult AddAllData()
         {

@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Http;
+using Newtonsoft.Json.Serialization;
 
 namespace AngularPlotlyAspNetCore
 {
@@ -43,8 +44,10 @@ namespace AngularPlotlyAspNetCore
 
             services.AddCors(x => x.AddPolicy("corsGlobalPolicy", policy));
 
-            // Add framework services.
-            services.AddMvc();
+            services.AddMvc().AddJsonOptions(options =>
+            {
+                options.SerializerSettings.ContractResolver = new DefaultContractResolver();
+            });
 
             services.Configure<SnakeDataRepositoryConfiguration>(
             Configuration.GetSection("SnakeDataRepository"));
